@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantAbi</title>
+    <link rel="icon" href="../img/logotop.png" type="image/icon type">
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <div class="add-plant-container">
+        <div class="top-nav">
+            <a class="back-btn" href="../index.html">Back</a>
+            <h1 class="title">Add New Plant</h1>
+        </div>
+        <div class="search-methods">
+            <button type="button" class="search-method-btn" onclick="navigateToSearch()">Search By Name</button>
+            <button type="button" class="search-method-btn" onclick="openCamera()">AI Plant Identification</button>
+            <button type="button" class="search-method-btn" onclick="navigateToRecom()">Recommendations</button>
+        </div>
+        <div class="selected-plant-image" onclick="document.getElementById('plant-image-upload').click()">
+            <p>Select Plant Image</p>
+            <span id="plant-image-upload">
+        </div>
+        <div class="add-plant-action">
+            <button class="add-btn fab">Add Plant</button>
+        </div>
+    </div>
+
+    <script src="add.js"></script>
+</body>
+</html>

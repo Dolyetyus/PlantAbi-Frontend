@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantAbi</title>
+    <link rel="icon" href="../img/logotop.png" type="image/icon type">
+    <link rel="stylesheet" href="recommendations.css">
+</head>
+<body>
+    <div class="recommendations-container">
+        <div class="top-nav">
+                <a class="back-btn" href="../addPlant/addPlant.html">Back</a>
+                <h1 class="title">Recommendations</h1>
+        </div>
+        <div class="category-bar">
+            <button class="category-btn active">All</button>
+            <button class="category-btn">Category1</button>
+            <button class="category-btn">Category2</button>
+            <button class="category-btn">Category3</button>
+        </div>
+        <section class="plant-section">
+            <h2>Popular Plants</h2>
+            <div class="plant-card">
+                <!-- Repeat this block for each plant -->
+                <img src="../img/tomato.png" alt="Tomatato Plant" class="plant-image">
+                <div class="plant-info">
+                    <span class="plant-name">Tomatato Plant</span>
+                    <span class="plant-details">Light: Low To Bright</span>
+                    <span class="plant-details">Water: Every 2 Days</span>
+                    <span class="plant-details" data-maintenance="hard">Maintenance: Hard</span>
+                    <span class="chevron" onclick="goBack()">➜</span>
+                </div>
+            </div>
+            <div class="plant-card">
+                <img src="../img/lavender.jpg" alt="Lavender Plant" class="plant-image">
+                <div class="plant-info">
+                    <span class="plant-name">Lavender</span>
+                    <span class="plant-details">Light: Bright</span>
+                    <span class="plant-details">Water: Twice a week</span>
+                    <span class="plant-details" data-maintenance="easy">Maintenance: Easy</span>
+                    <span class="chevron" onclick="goBack()">➜</span>
+                </div>
+            </div>
+            <!-- Add here  -->
+        </section>
+        <section class="plant-section">
+            <h2>Related Plants</h2>
+            <div class="plant-card">
+                <img src="../img/desert-rose.jpg" alt="Desert Rose" class="plant-image">
+                <div class="plant-info">
+                    <span class="plant-name">Desert Rose</span>
+                    <span class="plant-details">Light: Bright</span>
+                    <span class="plant-details">Water: Every 2 weeks</span>
+                    <span class="plant-details" data-maintenance="medium">Maintenance: Medium</span>
+                    <span class="chevron" onclick="goBack()">➜</span>
+                </div>
+            </div>
+            <!-- Add here  -->
+        </section>
+    </div>
+    <script src="recommendations.js">
+    </script>
+</body>
+</html>

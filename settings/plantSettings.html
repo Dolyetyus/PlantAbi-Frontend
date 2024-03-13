@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantAbi</title>
+    <link rel="icon" href="../img/logotop.png" type="image/icon type">
+    <link rel="stylesheet" href="plantSettings.css">
+</head>
+<body>
+<div id="settings-container">
+    <div id="top-nav">
+        <a class="back-btn" href="../index.html">Back</a>
+        <h1 id="title">Plant Settings</h1>
+    </div>
+
+    <div class="settings-section">
+        <h2 class="settings-heading">Rename Plant</h2>
+        <label>
+            <input type="text" class="settings-input" placeholder="Plant Name: ">
+        </label>
+    </div>
+    <div class="settings-section">
+        <h2 class="settings-heading">Danger Zone</h2>
+        <button type="button" class="settings-input" id="delete-button" onclick="confirmDelete()">Delete Plant</button>
+    </div>
+</div>
+<script src="plantSettings.js"></script>
+</body>
+</html>

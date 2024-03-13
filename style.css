@@ -1,0 +1,227 @@
+@font-face {
+  font-family: Righteous;
+  src: url("img/Righteous.tff");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Righteous, Papyrus, sans-serif;
+  font-weight: bold;
+  background-color: #d8f7d2;
+  color: #333;
+  padding: 10px;
+  margin-bottom: 150px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.recommended-btn,
+.search-input {
+  font-family: Papyrus, sans-serif;
+  font-weight: bold;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #b0f3a5;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  margin: auto;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.settings {
+  float: right;
+}
+
+.settings-btn {
+  font-size: 0.7rem;
+  background-color: #4db352;
+  color: #fff;
+  border: 0px solid #0f3a21;
+  border-radius: 20px;
+  padding: 10px 18px;
+  font-family: Papyrus, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.settings-btn:hover {
+  background-color: #83d489;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6fcf2;
+  border-radius: 25px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.search-input {
+  background-color: #f6fcf2;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.search-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #6dab70;
+}
+
+.search-btn img {
+  max-height: 25px;
+  width: 25px;
+}
+
+.search-btn:hover {
+  color: #367a38;
+}
+
+.title {
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 1.5em;
+  color: #2e7d32;
+}
+
+.plant-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.plant-card {
+  background: #e9fae6;
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  display: grid;
+  grid-template-columns: repeat(auto, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.plant-card:hover {
+  transform: translateY(-10px);
+}
+
+.plant-image img {
+  align-items: center;
+  max-height: 125px;
+  width: 100px;
+  /* margin-bottom: 10px; */
+  border-radius: 10px;
+}
+.plant-info {
+  background-color: #c9fac1;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: green;
+  padding: 10px;
+}
+.plant-info p {
+  color: black;
+}
+
+.plant-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8bc34a;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.plant-button:hover {
+  background-color: rgb(113, 168, 104);
+  transform: translateY(-5px);
+}
+
+.plant-name {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.label {
+  font-weight: 1000;
+  color: #056e23;
+}
+
+strong .label {
+  color: #056e23;
+}
+
+.chevron {
+  font-size: 1.5em;
+}
+
+.fab {
+  background: #2e7d32;
+  color: #fff;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 80px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.fab:hover {
+  background: #6dab70;
+}
+.recommended-btn {
+  background: #a5d6a7;
+  color: #2e7d32;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

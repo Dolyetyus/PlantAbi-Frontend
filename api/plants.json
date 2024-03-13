@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Cactus",
+        "scientific": "Cactaceae",
+        "image": "https://images.finegardening.com/app/uploads/2020/09/03152623/RGSW-Aug-2-Saguaro-Cactus_-pic-ctsy-of-Laurel-Startzel.jpg",
+        "alt": "Image Of Cactus Plant"
+    },
+    {
+        "id": 2,
+        "name": "Thadeus",
+        "scientific": "Thadiros",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/miranda_sprout_toxic_pink.jpg",
+        "alt": "Image Of Thadeus Plant"
+    },
+    {
+        "id": 3,
+        "name": "Snake Plant",
+        "scientific": "Sansevieria trifasciata",
+        "image": "https://www.tuinflora.com/media/catalog/product/cache/3a7af0a8e0e317723249dc9098669163/f/d/fd16809wh.jpg",
+        "alt": "Image Of Snake Plant"
+    },
+    {
+        "id": 4,
+        "name": "Spider Plant",
+        "scientific": "Chlorophytum comosum",
+        "image": "https://www.tuinflora.com/media/catalog/product/cache/3a7af0a8e0e317723249dc9098669163/f/d/fd13308wh.jpg",
+        "alt": "Image Of Spider Plant"
+    },
+    {
+        "id": 5,
+        "name": "Peace Lily",
+        "scientific": "Spathiphyllum spp.",
+        "image": "https://www.plantingtree.com/cdn/shop/products/Peace_Lily_6_FGT_grande.jpg",
+        "alt": "Image Of Peace Lily"
+    },
+    {
+        "id": 6,
+        "name": "Pothos",
+        "scientific": "Epipremnum aureum",
+        "image": "https://www.tuincentrumheerdink.nl/wp-content/uploads/2021/01/Epipremnum-aureum-Drakenklimop-rotated.jpg",
+        "alt": "Image Of Pothos Plant"
+    },
+    {
+        "id": 7,
+        "name": "Zanzibar Gem",
+        "scientific": "Zamioculcas zamiifolia",
+        "image": "https://www.123planten.nl/media/catalog/product/cache/7e47a816da2f8f1d082e569b4e2be5e7/4/Z/4ZAZABX15_10.jpg",
+        "alt": "Image Of Zanzibar Gem"
+    },
+    {
+        "id": 8,
+        "name": "Chinese Evergreen",
+        "scientific": "Aglaonema spp.",
+        "image": "https://m.media-amazon.com/images/I/51jDVD-Bf3L._AC_UF894,1000_QL80_.jpg",
+        "alt": "Image Of Chinese Evergreen"
+    },
+    {
+        "id": 9,
+        "name": "Philodendron",
+        "scientific": "Philodendron spp.",
+        "image": "https://www.thespruce.com/thmb/wRNNTQgL4zyHmJ7dBPUpchKhQQo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grow-philodendron-houseplants-1902768-01-050bacc089144310887868d97e057b8f.jpg",
+        "alt": "Image Of Philodendron"
+    },
+    {
+        "id": 10,
+        "name": "Monstera",
+        "scientific": "Monstera deliciosa",
+        "image": "https://flowyplants.nl/cdn/shop/products/PhilodendronMonsteraDeliciasa_1700d9d1-66a5-4838-95a4-3d68f59af962_x700.jpg?v=1616558491",
+        "alt": "Image Of Monstera"
+    },
+    {
+        "id": 11,
+        "name": "Fiddle Leaf Fig",
+        "scientific": "Ficus lyrata",
+        "image": "https://cdn.webshopapp.com/shops/29478/files/421501073/ficus-lyrata-vertakt-l.jpg",
+        "alt": "Image Of Fiddle Leaf Fig"
+    },
+    {
+        "id": 12,
+        "name": "Boston Fern",
+        "scientific": "Nephrolepis exaltata",
+        "image": "https://hortology.co.uk/cdn/shop/products/Nephrolepis-exaltata-Bostoniensis-Boston-Fern-Hanging_1200x.jpg?v=1708073769",
+        "alt": "Image Of Boston Fern"
+    },
+    {
+        "id": 13,
+        "name": "Lucky Bamboo",
+        "scientific": "Dracaena sanderiana",
+        "image": "https://www.tropicalplantsuk.com/wp-content/uploads/2023/01/Sanderina-Victory-SINGLE-15cm.jpg",
+        "alt": "Image Of Lucky Bamboo"
+    }
+]

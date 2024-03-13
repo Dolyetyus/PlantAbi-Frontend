@@ -1,0 +1,168 @@
+@font-face {
+  font-family: Righteous;
+  src: url("img/Righteous.tff");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Righteous, Papyrus, sans-serif;
+  font-weight: bold;
+  background-color: #d8f7d2;
+  color: #333;
+  padding: 12px;
+}
+
+.recommendations-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.back-btn {
+  background-color: #b0f3a5;
+  color: #056e23;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: #6dab70;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.category-bar {
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #b0f3a5;
+  padding: 10px 0; 
+  border-radius: 30px;
+}
+
+.category-btn {
+  background-color: transparent;
+  border: none;
+  margin: 0 10px;
+  padding: 10px 8px;
+  cursor: pointer;
+  position: relative;
+  color: #056e23;
+  font-family: Righteous, Papyrus, sans-serif;
+}
+
+.category-btn.active {
+  font-weight: bold;
+}
+
+.category-btn:not(.active)::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #056e23;
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.category-btn::after {
+    content: '';
+    position: absolute;
+    width: 60%; 
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 2px;
+    opacity: 0; 
+    transition: all 0.5s ease;
+}
+
+.category-btn:hover::after, .category-btn.active::after {
+    opacity: 1;
+    width: 60%;
+}
+
+.plant-section {
+    margin: 10px 0;
+}
+
+.plant-section h2 {
+    padding-left: 10px;
+}
+
+.plant-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #e9fae6;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.plant-image {
+    width: 80px;
+}
+
+.plant-info {
+    align-items: left;
+    margin-left: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.plant-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.plant-details {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.plant-details[data-maintenance="easy"] {
+    color: green;
+}
+
+.plant-details[data-maintenance="medium"] {
+    color: darkorange;
+}
+
+.plant-details[data-maintenance="hard"] {
+    color: red;
+}
+
+.chevron {
+    font-size: 1.5em;
+    margin-left: auto;
+    cursor: pointer;
+}

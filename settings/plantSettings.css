@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Righteous;
+    src: url("img/Righteous.tff");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Righteous, Papyrus, sans-serif;
+    font-weight: bold;
+    background-color: #d8f7d2;
+    color: #333;
+    padding: 10px;
+}
+
+#top-nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    background-color: #b0f3a5;
+    color: #056e23;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background: #6dab70;
+}
+
+.settings-input:hover  {
+    background: #e0fcdc;
+}
+
+#title {
+    font-size: 1.3rem;
+    flex-grow: 1;
+    margin: auto;
+    text-align: center;
+}
+
+#settings-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.settings-section {
+    background: #e9fae6;
+    border-radius: 20px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.settings-heading {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.settings-input {
+    font-family: Righteous, Papyrus, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #c9fac1;
+}
+
+#delete-button{
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    font-style: italic;
+    background-color: #ff5c5c;
+    cursor: pointer;
+}
+
+.bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-btn, .rating-btn {
+    background-color: #a5d6a7;
+    color: #056e23;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: Papyrus, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-basis: 48%; /* Each button takes up roughly half the space */
+}
+
+.feedback-btn:hover, .rating-btn:hover {
+    background-color: #9ee6a3;
+}

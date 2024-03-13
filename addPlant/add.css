@@ -1,0 +1,136 @@
+@font-face {
+  font-family: Righteous;
+  src: url("img/Righteous.tff");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Righteous, Papyrus, sans-serif;
+  font-weight: bold;
+  background-color: #d8f7d2;
+  color: #333;
+  padding: 12px;
+}
+
+.add-plant-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.back-btn {
+  background-color: #b0f3a5;
+  color: #056e23;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: #6dab70;
+}
+
+.search-method-btn:hover {
+  background: #e0fcdc;
+}
+
+::placeholder {
+  text-align: center;
+  color: #000000;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.search-methods {
+  width: 100%;
+}
+
+.search-method-btn {
+  font-family: Righteous, Papyrus, sans-serif;
+  font-weight: bold;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 2px solid #056e23;
+  background-color: #c9fac1;
+  cursor: pointer;
+}
+
+.banner-image {
+  width: auto;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.selected-plant-image {
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border: 2px dashed #056e23;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selected-plant-image-selected {
+  width: 100%;
+  height: 200px;
+  background-color: #99999992;
+  margin-bottom: 10px;
+  border: 2px #056e23;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-plant-action {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.add-btn {
+  font-family: Righteous, Papyrus, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 40%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #62bf66;
+}

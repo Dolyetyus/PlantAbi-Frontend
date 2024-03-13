@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantAbi</title>
+    <link rel="icon" href="../img/logotop.png" type="image/icon type">
+    <link rel="stylesheet" href="nameCategory.css">
+</head>
+<body>
+<div class="screen-container">
+    <div class="top-nav">
+        <a class="back-btn" href="../addPlant/addPlant.html">Back</a>
+        <h1 class="title">Search by Name</h1>
+    </div>
+
+    <div class="middle-section">
+        <div class="card" id="name-category-selection">
+            <div class="category">Name:
+                <span>
+                    <label>
+                        <input class="input-search" type="text" placeholder="...">
+                    </label>
+                </span>
+            </div>
+            <div class="category">Category:
+                <span>
+                    <label>
+                        <select>
+                            <option value="none">none</option>
+                            <option value="cactus">Cactus</option>
+                            <option value="fruit">Fruit</option>
+                            <option value="flower">Flower</option>
+                        </select>
+                    </label>
+                </span>
+            </div>
+        </div>        
+</div>
+<div id="bottom-section">
+    <div class="card plant-grid" id="search-results-list">
+        
+    </div>
+    <div class="card-res" id="small-image">
+        <img src="../img/plant.png">
+        <button type="button" class="select-btn" onclick="goBack()">Select</button>
+    </div>
+
+    </div>
+</div>
+</div>
+<script src="nameCategory.js"></script>
+</body>
+</html>
